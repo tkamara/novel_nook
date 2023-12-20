@@ -1,0 +1,28 @@
+<!-- Add book page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add a Book</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='add_book.css') }}">
+</head>
+<body>
+<h1>Add a Book</h1>
+<nav>
+    <a href="/books">Books</a>
+    <a href="/add_book">Add a book</a>
+    <a href="/search_books">Search for books</a>
+    <a href="/logout">Logout</a>
+  </nav>
+<form action="/add_book" method="POST">
+  <label for="title">Title:</label><br>
+  <input type="text" id="title" name="title"><br>
+  <label for="author">Author:</label><br>
+  <input type="text" id="author" name="author"><br>
+  <label for="genre">Genre:</label><br>
+  <input type="text" id="genre" name="genre"><br><br>
+  <input type="submit" value="Add Book">
+</form>
+</body>
+</html>
