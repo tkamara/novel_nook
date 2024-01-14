@@ -16,8 +16,6 @@ Welcome to Novel Nook, a web-based book catalog that provides users with the abi
   - [Searching Books](#searching-books)
   - [Viewing Book Lists](#viewing-book-lists)
 - [Tech Stack](#tech-stack)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
